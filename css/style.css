@@ -800,3 +800,18 @@ fieldset {
         font-size: 10px;
     }
 }
+
+#top-section .home-image-bg,#top-section .carousel,#top-section #video-bg {
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    opacity:0.5;
+}
+
+.img-responsive,.thumbnail > img,.thumbnail a > img,.carousel-inner > .item > img,.carousel-inner > .item > a > img {
+    display:block;
+    max-width:100%;
+    height:auto;
+}
